@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Beautiful Girl ✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+            <h1 class="main-title">Hey Beautiful 💕</h1>
+            <p class="subtitle">I made this little space just for you</p>
+            <div class="heart-animation">💖</div>
+        </section>
+
+        <!-- Navigation -->
+        <nav class="cute-nav">
+            <button class="nav-btn active" data-section="love-notes">Love Notes</button>
+            <button class="nav-btn" data-section="music-box">Music Box</button>
+            <button class="nav-btn" data-section="sleep-sounds">Sleep Sounds</button>
+            <button class="nav-btn" data-section="memories">Our Memories</button>
+            <button class="nav-btn" data-section="mood-tracker">Mood Garden</button>
+            <button class="nav-btn" data-section="surprises">Surprises</button>
+        </nav>
+
+        <!-- Love Notes Section -->
+        <section id="love-notes" class="content-section active">
+            <h2>Little Reminders 🌸</h2>
+            <div class="notes-container">
+                <div class="note-card">
+                    <h3>You're Amazing</h3>
+                    <p>Even when you don't feel it, you light up my world every single day. Your smile is my favorite
+                        thing in the universe.</p>
+                </div>
+                <div class="note-card">
+                    <h3>It's Okay to Rest</h3>
+                    <p>Your mind deserves peace, your body deserves comfort. Take all the time you need - I'll be here
+                        waiting with hugs.</p>
+                </div>
+                <div class="note-card">
+                    <h3>You're Not Alone</h3>
+                    <p>Whatever you're going through, we'll face it together. You have someone who believes in you
+                        completely.</p>
+                </div>
+            </div>
+            <button class="surprise-btn" onclick="showRandomNote()">Get a Random Hug 🤗</button>
+            <div class="daily-affirmation">
+                <h3>Today's Special Message</h3>
+                <p id="daily-message">Loading your daily dose of love...</p>
+                <button onclick="generateDailyMessage()">New Message ✨</button>
+            </div>
+        </section>
+
+        <!-- Music Box Section -->
+        <section id="music-box" class="content-section">
+            <h2>Our Playlist 🎵</h2>
+            <p class="section-desc">Songs that remind me of you, with lyrics that speak to my heart</p>
+
+            <div class="music-player">
+                <div class="current-song">
+                    <div class="song-artwork">🎶</div>
+                    <div class="song-info">
+                        <h3 id="current-title">Select a song</h3>
+                        <p id="current-artist">Artist</p>
+                    </div>
+                </div>
+
+                <div class="player-controls">
+                    <button id="prev-btn">⏮️</button>
+                    <button id="play-pause-btn">▶️</button>
+                    <button id="next-btn">⏭️</button>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="current-time">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h3>Add Your Songs Here 💕</h3>
+                <div class="add-song-form">
+                    <input type="text" id="song-title" placeholder="Song title">
+                    <input type="text" id="song-artist" placeholder="Artist">
+                    <input type="file" id="song-file" accept="audio/*">
+                    <button onclick="addSong()">Add Song 🎵</button>
+                </div>
+
+                <div class="song-list" id="song-list">
+                    <!-- Sample songs will be added here -->
+                </div>
+            </div>
+
+            <div class="lyrics-display" id="lyrics-display">
+                <h3>Lyrics 📝</h3>
+                <div class="lyrics-content" id="lyrics-content">
+                    <p>Select a song to see lyrics...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sleep Sounds Section -->
+        <section id="sleep-sounds" class="content-section">
+            <h2>Peaceful Sounds 🌙</h2>
+            <p class="section-desc">Close your eyes and let these gentle sounds carry you to dreamland</p>
+
+            <div class="sleep-timer">
+                <h3>Sleep Timer</h3>
+                <select id="timer-duration">
+                    <option value="0">No timer</option>
+                    <option value="15">15 minutes</option>
+                    <option value="30">30 minutes</option>
+                    <option value="60">1 hour</option>
+                </select>
+                <button onclick="startSleepTimer()">Start Timer 🕐</button>
+                <div id="timer-display"></div>
+            </div>
+
+            <div class="sounds-grid">
+                <div class="sound-card" data-sound="rain">
+                    <div class="sound-icon">🌧️</div>
+                    <h3>Gentle Rain</h3>
+                    <button class="play-btn">Play</button>
+                    <input type="range" class="volume-slider" min="0" max="100" value="50">
+                </div>
+                <div class="sound-card" data-sound="ocean">
+                    <div class="sound-icon">🌊</div>
+                    <h3>Ocean Waves</h3>
+                    <button class="play-btn">Play</button>
+                    <input type="range" class="volume-slider" min="0" max="100" value="50">
+                </div>
+                <div class="sound-card" data-sound="forest">
+                    <div class="sound-icon">🌲</div>
+                    <h3>Forest Breeze</h3>
+                    <button class="play-btn">Play</button>
+                    <input type="range" class="volume-slider" min="0" max="100" value="50">
+                </div>
+                <div class="sound-card" data-sound="fireplace">
+                    <div class="sound-icon">🔥</div>
+                    <h3>Cozy Fireplace</h3>
+                    <button class="play-btn">Play</button>
+                    <input type="range" class="volume-slider" min="0" max="100" value="50">
+                </div>
+                <div class="sound-card" data-sound="birds">
+                    <div class="sound-icon">🐦</div>
+                    <h3>Morning Birds</h3>
+                    <button class="play-btn">Play</button>
+                    <input type="range" class="volume-slider" min="0" max="100" value="50">
+                </div>
+                <div class="sound-card" data-sound="white-noise">
+                    <div class="sound-icon">📻</div>
+                    <h3>White Noise</h3>
+                    <button class="play-btn">Play</button>
+                    <input type="range" class="volume-slider" min="0" max="100" value="50">
+                </div>
+            </div>
+
+            <div class="sound-mixer">
+                <h3>Mix Your Perfect Sound 🎛️</h3>
+                <p>Combine multiple sounds for your ideal sleep environment</p>
+                <button onclick="playAllSelected()">Play Selected Sounds</button>
+                <button onclick="stopAllSounds()">Stop All</button>
+            </div>
+        </section>
+
+        <!-- Memories Section -->
+        <section id="memories" class="content-section">
+            <h2>Our Beautiful Moments 📸</h2>
+            <div class="memory-gallery">
+                <div class="memory-card">
+                    <div class="memory-placeholder">🌅</div>
+                    <p>Remember our first sunrise together? You looked so peaceful.</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-placeholder">☕</div>
+                    <p>That cozy morning when we shared coffee and talked for hours.</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-placeholder">🌟</div>
+                    <p>Every moment with you feels like magic.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mood Garden Section -->
+        <section id="mood-tracker" class="content-section">
+            <h2>Your Mood Garden 🌻</h2>
+            <p class="section-desc">Plant flowers based on how you're feeling - watch your garden grow!</p>
+
+            <div class="mood-selector">
+                <h3>How are you feeling today?</h3>
+                <div class="mood-buttons">
+                    <button class="mood-btn" data-mood="happy" onclick="plantFlower('happy')">😊 Happy</button>
+                    <button class="mood-btn" data-mood="calm" onclick="plantFlower('calm')">😌 Calm</button>
+                    <button class="mood-btn" data-mood="tired" onclick="plantFlower('tired')">😴 Tired</button>
+                    <button class="mood-btn" data-mood="anxious" onclick="plantFlower('anxious')">😰 Anxious</button>
+                    <button class="mood-btn" data-mood="sad" onclick="plantFlower('sad')">😢 Sad</button>
+                    <button class="mood-btn" data-mood="loved" onclick="plantFlower('loved')">🥰 Loved</button>
+                </div>
+            </div>
+
+            <div class="garden-container" id="garden">
+                <div class="garden-soil"></div>
+            </div>
+
+            <div class="mood-stats">
+                <h3>Your Garden Stats 📊</h3>
+                <div id="mood-summary"></div>
+            </div>
+        </section>
+
+        <!-- Surprises Section -->
+        <section id="surprises" class="content-section">
+            <h2>Just Because I Love You 🎁</h2>
+            <div class="surprises-container">
+                <div class="surprise-box" onclick="openSurprise(1)">
+                    <div class="gift-icon">🎀</div>
+                    <p>Love Letter</p>
+                </div>
+                <div class="surprise-box" onclick="openSurprise(2)">
+                    <div class="gift-icon">💝</div>
+                    <p>Sweet Dreams</p>
+                </div>
+                <div class="surprise-box" onclick="openSurprise(3)">
+                    <div class="gift-icon">🌺</div>
+                    <p>Future Plans</p>
+                </div>
+                <div class="surprise-box" onclick="openSurprise(4)">
+                    <div class="gift-icon">📸</div>
+                    <p>Photo Booth</p>
+                </div>
+                <div class="surprise-box" onclick="openSurprise(5)">
+                    <div class="gift-icon">🎮</div>
+                    <p>Mini Game</p>
+                </div>
+                <div class="surprise-box" onclick="openSurprise(6)">
+                    <div class="gift-icon">💌</div>
+                    <p>Voice Message</p>
+                </div>
+            </div>
+
+            <div class="love-counter">
+                <h3>Love Counter 💕</h3>
+                <div class="counter-display">
+                    <span id="love-count">0</span>
+                    <p>times I've thought about you today</p>
+                </div>
+                <button onclick="incrementLove()">Add Love +1</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal for surprises -->
+    <div id="surprise-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="surprise-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

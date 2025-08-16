@@ -1,0 +1,222 @@
+{
+  "personalInfo": {
+    "girlfriendName": "Prashu Babyyy",
+    "yourName": "Shanu",
+    "relationshipStart": "2025-24-05",
+    "specialNickname": "Prashu"
+  },
+  "playlist": [
+    {
+      "id": 1,
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "audioFile": "audio/perfect.mp3",
+      "lrcFile": "lyrics/perfect.lrc",
+      "dedication": "This song reminds me of the first time I saw you ✨",
+      "coverArt": "🎵"
+    },
+    {
+      "id": 2,
+      "title": "All of Me",
+      "artist": "John Legend",
+      "audioFile": "audio/all-of-me.mp3",
+      "lrcFile": "lyrics/all-of-me.lrc",
+      "dedication": "Every word of this song is how I feel about you 💕",
+      "coverArt": "💖"
+    },
+    {
+      "id": 3,
+      "title": "Thinking Out Loud",
+      "artist": "Ed Sheeran",
+      "audioFile": "audio/thinking-out-loud.mp3",
+      "lrcFile": "lyrics/thinking-out-loud.lrc",
+      "dedication": "I want to love you until we're 70 and beyond 👴👵",
+      "coverArt": "💗"
+    },
+    {
+      "id": 4,
+      "title": "Make You Feel My Love",
+      "artist": "Adele",
+      "audioFile": "audio/make-you-feel-my-love.mp3",
+      "lrcFile": "lyrics/make-you-feel-my-love.lrc",
+      "dedication": "I'd do anything to make you feel my love 🌹",
+      "coverArt": "🌹"
+    },
+    {
+      "id": 5,
+      "title": "A Thousand Years",
+      "artist": "Christina Perri",
+      "audioFile": "audio/thousand-years.mp3",
+      "lrcFile": "lyrics/thousand-years.lrc",
+      "dedication": "I have loved you for a thousand years, I'll love you for a thousand more 💫",
+      "coverArt": "⭐"
+    }
+  ],
+  "loveNotes": [
+    "You're the first thing I think about when I wake up and the last thing before I sleep 💕",
+    "Your laugh is my favorite sound in the whole world 🌟",
+    "Even on your hardest days, you're still the strongest person I know 💪",
+    "You make ordinary moments feel extraordinary ✨",
+    "I'm so proud of everything you are and everything you're becoming 🌸",
+    "Your kindness makes the world a better place 🌍",
+    "You deserve all the love and happiness in the universe 💖",
+    "Thank you for being exactly who you are - perfect in every way 🦋",
+    "Your smile could light up the darkest room 🌞",
+    "I believe in you, especially when you don't believe in yourself 🌈",
+    "Every day with you is a new adventure I'm grateful for 🗺️",
+    "You're not just my girlfriend, you're my best friend and soulmate 👫",
+    "Your hugs are my safe place in this chaotic world 🤗",
+    "I love how you see beauty in the smallest things 🌺",
+    "You inspire me to be a better person every single day 🌟",
+    "Your dreams matter, and I'll always support them 🎯",
+    "You're stronger than you know and braver than you feel 🦁",
+    "I love your sleepy voice in the morning ☀️",
+    "You make me believe in magic again ✨",
+    "Distance means nothing when you mean everything 💝"
+  ],
+  "dailyAffirmations": [
+    "Today is going to be amazing because you're in it 🌟",
+    "Remember: you're capable of incredible things 💪",
+    "Your presence makes everything better 💕",
+    "Take it one breath at a time, beautiful 🌸",
+    "You're exactly where you need to be right now ✨",
+    "I'm sending you all my love and positive energy 🌈",
+    "You're going to do great things today 🎯",
+    "Don't forget to be gentle with yourself 🤗",
+    "You light up my world just by existing 💡",
+    "Today's challenges are tomorrow's strengths 🌱"
+  ],
+  "memories": [
+    {
+      "title": "Our First Date",
+      "description": "Remember how nervous we both were? But it felt so right from the start ✨",
+      "image": "images/first-date.jpg",
+      "emoji": "🌅",
+      "date": "2024-01-15"
+    },
+    {
+      "title": "Coffee Shop Mornings",
+      "description": "Those cozy mornings when we shared coffee and talked for hours about everything and nothing 💕",
+      "image": "images/coffee-date.jpg",
+      "emoji": "☕",
+      "date": "2024-02-10"
+    },
+    {
+      "title": "Stargazing Night",
+      "description": "When we laid under the stars and you pointed out constellations. Every moment with you feels like magic 🌟",
+      "image": "images/stargazing.jpg",
+      "emoji": "⭐",
+      "date": "2024-03-05"
+    },
+    {
+      "title": "Rainy Day Cuddles",
+      "description": "That perfect rainy afternoon when we just held each other and watched movies. Pure bliss 🌧️",
+      "image": "images/rainy-day.jpg",
+      "emoji": "🌧️",
+      "date": "2024-03-20"
+    }
+  ],
+  "surprises": {
+    "1": {
+      "title": "Love Letter 💕",
+      "type": "letter",
+      "content": {
+        "greeting": "My Dearest Angel",
+        "paragraphs": [
+          "I don't tell you enough how much you mean to me. You're not just my girlfriend - you're my best friend, my safe place, my home.",
+          "When you can't sleep, I wish I could hold you until the worries fade away. When you're anxious, I want to remind you that you're stronger than you know.",
+          "Every day with you is a gift I never want to take for granted. Your laugh, your sleepy morning voice, the way you see beauty in everything - these are the things that make my world brighter.",
+          "I love you more than words can express, and I always will."
+        ],
+        "closing": "Forever yours ❤️"
+      }
+    },
+    "2": {
+      "title": "Sweet Dreams Package 🌙",
+      "type": "sleep-guide",
+      "content": {
+        "title": "For Better Sleep",
+        "routine": [
+          "🛁 Warm bath with lavender or chamomile",
+          "📱 Put devices away 1 hour before bed",
+          "🎵 Listen to our sleep sounds or soft music",
+          "📖 Read something light and positive",
+          "🧘‍♀️ Try the 4-7-8 breathing technique",
+          "💭 Think of 3 good things from today",
+          "🤗 Imagine my arms around you"
+        ],
+        "note": "Remember: It's okay if sleep doesn't come right away. Just rest and know that tomorrow is a new day full of possibilities."
+      }
+    },
+    "3": {
+      "title": "Future Adventures 🌟",
+      "type": "bucket-list",
+      "content": {
+        "title": "Dreams We'll Chase Together",
+        "adventures": [
+          "🌅 Watch sunrise from a mountaintop",
+          "🏖️ Build the most epic sandcastle",
+          "🎬 Have our own film festival weekend",
+          "🍕 Try pizza in Italy together",
+          "🌸 See cherry blossoms in Japan",
+          "🏠 Create our perfect cozy home",
+          "📚 Read the same book and discuss it",
+          "🎨 Take an art class together",
+          "⭐ Go stargazing in the desert",
+          "💑 Grow old and still laugh together"
+        ],
+        "note": "Every adventure is better with you by my side."
+      }
+    }
+  },
+  "sleepSounds": [
+    {
+      "name": "Gentle Rain",
+      "icon": "🌧️",
+      "audioFile": "sounds/rain.mp3",
+      "description": "Soft rainfall to wash away your worries"
+    },
+    {
+      "name": "Ocean Waves",
+      "icon": "🌊",
+      "audioFile": "sounds/ocean.mp3",
+      "description": "Peaceful waves lapping the shore"
+    },
+    {
+      "name": "Forest Breeze",
+      "icon": "🌲",
+      "audioFile": "sounds/forest.mp3",
+      "description": "Gentle wind through the trees"
+    },
+    {
+      "name": "Cozy Fireplace",
+      "icon": "🔥",
+      "audioFile": "sounds/fireplace.mp3",
+      "description": "Crackling fire for warmth and comfort"
+    },
+    {
+      "name": "Morning Birds",
+      "icon": "🐦",
+      "audioFile": "sounds/birds.mp3",
+      "description": "Gentle bird songs to ease you to sleep"
+    },
+    {
+      "name": "White Noise",
+      "icon": "📻",
+      "audioFile": "sounds/white-noise.mp3",
+      "description": "Consistent, calming background noise"
+    }
+  ],
+  "theme": {
+    "primaryColor": "#667eea",
+    "secondaryColor": "#764ba2",
+    "accentColor": "#ff9a9e",
+    "backgroundColor": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "cardColors": [
+      "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+      "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)"
+    ]
+  }
+}
